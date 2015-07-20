@@ -1,0 +1,2588 @@
+[ 2015-07-19T14:06:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053711s ]
+
+[ 2015-07-19T14:06:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T14:07:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T14:07:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:07:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:07:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.019531s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019531s ]
+
+[ 2015-07-19T14:08:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T14:08:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:09:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/School/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:1.9229s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:1.3604s ]
+SQL: SELECT * FROM tp_schools  [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0508s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T14:13:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:13:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:13:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T14:13:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:15:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:15:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:17:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/School/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1172s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.1641s ]
+SQL: SELECT * FROM tp_schools  [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:18:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:18:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:18:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/School/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1455s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.1455s ]
+SQL: SELECT * FROM tp_schools  [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T14:18:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:18:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:18:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/School/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1660s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.1523s ]
+SQL: SELECT * FROM tp_schools  [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0166s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T14:32:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T14:32:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:37:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T14:37:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T14:37:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/__APP__/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 非法操作:__APP__
+
+[ 2015-07-19T14:37:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/__APP__/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:__APP__
+
+[ 2015-07-19T14:37:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008789s ]
+
+[ 2015-07-19T14:37:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T14:37:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T15:06:06+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T15:06:06+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T15:06:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/School/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1592s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.2275s ]
+SQL: SELECT * FROM tp_schools  [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T15:49:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T15:49:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T15:49:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/School/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1563s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.1865s ]
+SQL: SELECT * FROM tp_schools  [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D006C239EEC66795C407CEE04FBAF8F3640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D0006BD3786007A5C408C4AEA04348D3640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0049s ]
+SQL: select ST_AsText('010100002031BF0D0033FB3C4679745C408F8EAB915DB53640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D000934D8D479805C407B2FBE688FB33640') [ RunTime:0.0059s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0039s ]
+SQL: select ST_AsText('010100002031BF0D00D787F546AD7A5C408A3A730F09C33640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00CF4D9B711A835C4019C5724BAB9D3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D003430F2B226775C402B31CF4A5ACD3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0000016BD5AE7C5C40C2137AFD49B03640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0083A10E2BDC755C4019028063CFBA3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D009BABE63922815C40534145D5AFA83640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00D595CFF23C785C40CDCB61F71D8F3640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D005C59A2B3CC845C400F60915F3F943640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00FBCC599F72845C402A0307B474913640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00ED0DBE3099825C40D11E2FA4C38F3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00C16F438CD7835C40647616BD538D3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0022895E46B1835C40DF6FB4E386873640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D00F850A2258F875C40001FBC76698F3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0027A5A0DB4B885C40F6EE8FF7AA953640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0095F1EF332E875C40E1968FA4A4933640') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:06:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.125000s ]
+
+[ 2015-07-19T19:06:21+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:06:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T19:06:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:06:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:15:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:15:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:16:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:project
+
+[ 2015-07-19T19:17:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:17:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:17:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/project
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:project
+
+[ 2015-07-19T19:19:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:19:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:19:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:21:02+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:21:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:21:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:24:03+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T19:26:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:26:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:27:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-07-19T19:27:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:27:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:27:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:27:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:27:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:29:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T19:29:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:30:52+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:30:52+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:31:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:31:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:32:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:32:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:32:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:32:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:32:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T19:32:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:33:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:33:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:34:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:34:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T19:34:18+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:34:18+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:35:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:35:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:35:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:35:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:36:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:36:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:36:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:36:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:37:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:37:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:37:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:37:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:39:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:39:09+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T19:39:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:39:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:41:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:41:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:42:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:42:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:42:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:42:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:46:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:46:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:46:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:46:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:46:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:46:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:55:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T19:55:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:57:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T19:57:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:59:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T19:59:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:00:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:00:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:08:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:09:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-07-19T20:11:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-07-19T20:13:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005859s ]
+
+[ 2015-07-19T20:13:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:13:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:13:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:14:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:14:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:16:21+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:16:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:16:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:16:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:17:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:17:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:19:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+
+[ 2015-07-19T20:19:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:28:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:28:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:31:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:31:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T20:32:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:32:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:32:55+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:32:55+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:33:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:33:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:41:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:41:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:42:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T20:42:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:39:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:39:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:40:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T20:40:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T20:41:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:41:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:42:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:42:18+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:43:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:43:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:44:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:44:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:44:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:44:32+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:48:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:48:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T20:50:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+
+[ 2015-07-19T20:51:38+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:51:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:52:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T20:59:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T20:59:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:07:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:11:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:11:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:12:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:12:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:12:09+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:12:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:12:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:13:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:13:21+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:13:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:13:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:13:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T21:13:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:14:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:14:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:14:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:14:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:15:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:15:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T21:16:19+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:18:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:18:38+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:18:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:18:43+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T21:18:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:18:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:19:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:19:13+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:19:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:20:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:20:16+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T21:21:55+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:22:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:22:19+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:22:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:22:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:24:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:24:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:25:02+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:25:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:25:55+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+
+[ 2015-07-19T21:26:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:26:32+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:38+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T21:26:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:43+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:26:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:26:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:26:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:26:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:27:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:27:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+
+[ 2015-07-19T21:27:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006836s ]
+
+[ 2015-07-19T21:27:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T21:27:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:27:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:28:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:28:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:28:19+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:28:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:28:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:28:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:28:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T21:28:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:28:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:28:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:29:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:29:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:29:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:30:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:30:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:32:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:32:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:32:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:32:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:32:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:33:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:33:02+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:33:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:33:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011719s ]
+
+[ 2015-07-19T21:33:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:33:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:33:59+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:34:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T21:34:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:34:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:34:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:34:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:34:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:35:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:35:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:35:52+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T21:35:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:35:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:59+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:36:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:36:02+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:36:03+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:36:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:36:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:37:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:37:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:37:59+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:38:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:38:03+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006836s ]
+
+[ 2015-07-19T21:38:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:38:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005859s ]
+
+[ 2015-07-19T21:33:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:34:52+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:35:06+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:35:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:42:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:42:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:42:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:42:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:42:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:42:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:42:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:42:55+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T21:42:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:43:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:43:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T21:43:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:43:21+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T21:43:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:43:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:43:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:43:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:43:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:43:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:43:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:43:43+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:43:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001953s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:43:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:43:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:44:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:44:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:48:18+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:48:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:49:09+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:49:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:49:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:49:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:50:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:50:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:50:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:50:33+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:50:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:50:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:50:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:50:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:50:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:51:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:52:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:52:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:54:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:54:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T21:54:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:55:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:55:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T21:56:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T21:56:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T21:56:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:00:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:00:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:00:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:01:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005859s ]
+
+[ 2015-07-19T22:01:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:01:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:01:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:01:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:01:55+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T22:01:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:03:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:03:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:04:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:05:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:05:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:06:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041016s ]
+
+[ 2015-07-19T22:06:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:06:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:06:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:06:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:06:43+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:06:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+
+[ 2015-07-19T22:06:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:06:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:06:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:06:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:06:52+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:06:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:06:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T22:06:58+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T22:06:59+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:07:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:07:03+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:07:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T22:07:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T22:07:06+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:07:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:07:09+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:07:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:07:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:07:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:08:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:08:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:08:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:09:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:10:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:10:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:10:06+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:10:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:10:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:10:13+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T22:10:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:10:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:10:18+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:10:20+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:10:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:12:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:13:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:14:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:14:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:15:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:16:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:16:48+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:16:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:16:51+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:16:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:16:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:16:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:17:03+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-19T22:17:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:14+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T22:17:16+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:18+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:17:21+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:17:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:17:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:17:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:17:30+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:17:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:32+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+
+[ 2015-07-19T22:17:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005859s ]
+
+[ 2015-07-19T22:17:38+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:17:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:17:41+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:43+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:17:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-19T22:17:45+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:17:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:18:03+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:18:07+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:18:13+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:18:19+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:19:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:21:42+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:24:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:24:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:24:19+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:24:21+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003906s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+
+[ 2015-07-19T22:24:22+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012696s ]
+
+[ 2015-07-19T22:24:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:24:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:24:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:24:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:24:37+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:26:34+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T22:26:39+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:26:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:30:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:30:36+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:30:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:31:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:31:49+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-19T22:31:52+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-19T22:31:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:31:56+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:30:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:30:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:30:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:30:54+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:31:01+08:00 ] 127.0.0.1 /bmap/index.php/Home/Projects/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:31:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/doLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-19T22:31:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:31:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-19T22:35:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-19T22:35:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+

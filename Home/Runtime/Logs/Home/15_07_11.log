@@ -1,0 +1,366 @@
+[ 2015-07-11T00:02:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:05:28+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:06:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:06:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:07:09+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:09:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:09:44+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:09:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006836s ]
+
+[ 2015-07-11T00:10:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:10:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:10:46+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:13:47+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-11T00:14:27+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1494s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T00:15:10+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:15:11+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.083008s ]
+
+[ 2015-07-11T00:15:13+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1377s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0254s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0059s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:15:32+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:15:32+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:15:35+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1338s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0332s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:16:23+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:16:24+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:16:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1436s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0293s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0176s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T00:16:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026367s ]
+
+[ 2015-07-11T00:16:26+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:16:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1582s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0215s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0029s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0205s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0010s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0020s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\Bitnami\apache2\htdocs\bmap\Home\Home\Controller\LoginController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:17:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-11T00:17:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:17:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1348s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0205s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\Bitnami\apache2\htdocs\bmap\Home\Home\Controller\LoginController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T00:17:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005860s ]
+
+[ 2015-07-11T00:17:50+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+
+[ 2015-07-11T00:17:53+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.0938s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-07-11T00:18:04+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/loginbefore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007813s ]
+
+[ 2015-07-11T00:18:05+08:00 ] 127.0.0.1 /bmap/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047852s ]
+
+[ 2015-07-11T00:18:08+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.1094s ]
+SQL: SELECT location FROM tp_schools  [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00850662D9CC815C4022FFCC203EA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D004EB7EC10FF785C402028B7ED7B943640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0029ED0DBE30795C401DC9E53FA48F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0072F90FE9B7775C40F1F44A5986903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0088653387A4765C401422E010AA943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0045813E9127795C40C7681D554DC83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0048FB1F60AD825C404C8E3BA583B53640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B85A272EC7735C40EACF7EA488AC3640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-11T00:22:31+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:23:02+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:23:40+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:24:00+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:24:15+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:25:57+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-11T00:26:29+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-11T00:36:25+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-11T00:38:12+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005860s ]
+
+[ 2015-07-11T00:39:17+08:00 ] 127.0.0.1 /bmap/index.php/Home/Login/schoolInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+

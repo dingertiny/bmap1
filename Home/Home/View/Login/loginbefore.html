@@ -1,0 +1,126 @@
+<include file="Public:header"/>
+
+				<form action="__URL__/doLogin" method="post" id="myForm" class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" name="username" class="form-control input-sm" placeholder="用户名..."/>
+						<input type="password" name="password" class="form-control input-sm" placeholder="密码..."/>
+					</div>
+					<!-- <button type="button" id="submit" class="btn btn-default btn-sm">登录</button> -->
+					<button type="submit" class="btn btn-default btn-sm">登录</button>
+					
+					<button type="button" id="register" class="btn btn-default btn-sm">注册</button>
+				</form>
+				
+
+				
+			</div>
+		</div>
+	</nav>
+		<div class="modal" id="mymodal">
+			<div class="modal-dialog">
+				<div class="modal-content" style="position:absolute;width:400px;left:20%">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title">用户注册</h4>
+					</div>
+					<div class="modal-body">
+					  	<form action="__APP__/Home/Register/doReg" method="post" id="registerForm">
+					  		<div id="divusernamezc" class="form-group has-feedback">
+					  			<span class="glyphicon glyphicon-user"></span>
+					  			<label class="control-label">用户名：</label><input type="text" class="form-control" name="usernamezc" id="usernamezc"/>
+					  			<span id="umessage1" style="display:none" class="help-block"></span>
+					  			<span id="umessage2" style="display:none" class="glyphicon form-control-feedback"></span>
+					  		</div>
+
+					  		<div id="divpasswordzc" class="form-group has-feedback">
+					  			<span class="glyphicon glyphicon-lock"></span>
+					  			<label class="control-label">密　码：</label><input type="password" name="passwordzc" id="passwordzc" class="form-control"/>
+					  			
+					  			<span id="pmessage2" style="display:none" class="glyphicon form-control-feedback"></span>
+					  		</div>
+
+					  		<div id="divrepasswordzc" class="form-group has-feedback">
+					  			<span class="glyphicon glyphicon-lock"></span>
+					  			<label class="control-label">确认密码：</label><input type="password" name="repasswordzc" id="repasswordzc" class="form-control"/>
+					  			<span id="rpmessage1" style="display:none" class="help-block"></span>
+					  			<span id="rpmessage2" style="display:none" class="glyphicon form-control-feedback"></span>
+					  		</div>
+
+					  		<div id="divcode" class="form-group has-feedback">
+					  			<span class="glyphicon glyphicon-qrcode"></span>
+					  			<label class="control-label">验证码：</label><input type="text" class="form-control" name="code" id="code"/>
+					  			<span id="cmessage1" style="display:none" class="help-block"></span>
+					  			<span id="cmessage2" style="display:none" class="glyphicon form-control-feedback"></span>
+					  			<img src="__APP__/Home/Public/verify" onclick="this.src=this.src+'?'+Math.random()"/>
+					  		</div>
+					  		
+					  		
+							
+						 						 					  		
+					  	</form>					
+					</div>
+					<div class="modal-footer">
+		
+						<button type="button" id="submitZc" class="btn btn-primary">提交</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+	<!--自适应布局-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 sidebar">			 	
+		 		<ul class="nav nav-sidebar">
+					<li class="active"><a>显示学校</a></li>
+				</ul>
+				
+				<ul class="nav nav-sidebar">				 
+					<li><a href="#">小学</a></li>
+					 <li class="nav-divider leftnav-divide"></li>
+					<li><a href="#">中学</a></li>
+					<li class="nav-divider leftnav-divide"></li>
+					<li id="schooldisplay"><a href="#">所有学校</a></li>
+				</ul>
+				<ul class="nav nav-sidebar">
+					<li><a href="#">设置</a></li>
+					 <li class="nav-divider leftnav-divide"></li>
+					<li><a href="#">帮助</a></li>
+				</ul>
+				<ul class="nav nav-sidebar">
+					<li class="active"><a>学校查询</a></li>
+				</ul>
+				<ul class="nav nav-sidebar">
+					<li><a href="#" class="show-pop" data-placement="right">搜索查询<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+					 <div id="popover-content2" class="hide">
+                     	<form class="form-inline" id="searchForm" action="__APP__/Home/School/searchSchool" method="post">
+                     		<div class="form-group">
+                     			<input type="text" onkeyup="noaction()"  name="suggestId" id="suggestId" style="width:125px" class="form-control input-sm test" placeholder="请输入关键词"/>
+                     			
+                       		 	<button onclick="findSearch()" class="btn btn-primary btn-sm" type="button">查找</button>
+                     		</div>
+                      </form>
+                    </div>
+					 <li class="nav-divider leftnav-divide"></li>
+					<li><a href="#">分类查询</a></li>				
+				</ul>
+	
+			</div>
+
+					
+
+			<div id="allmap" class="col-md-10"></div>
+		</div>
+	</div>
+	<div class="container">
+					
+					
+		</div>
+
+
+
+
+</body>
+</html>
+
