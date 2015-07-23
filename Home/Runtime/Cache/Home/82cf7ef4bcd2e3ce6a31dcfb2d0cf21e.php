@@ -82,7 +82,13 @@
 					<li class="active"><a href="#">首页</a></li>
 				</ul>
 				<ul class="nav nav-sidebar">
-					<li><a href="#">信息建立</a></li>
+					<li><a>文件上传</a></li>
+					<form method="post" action="/bmap1/index.php/Home/Suggest/dofileup" enctype="multipart/form-data">
+						<input type="file" name="filename"/>
+						<input type="submit" />
+					</form>
+					
+						
 					<li><a href="#">信息查询</a></li>
 					<li><a href="#">信息管理</a></li>
 				</ul>
@@ -94,24 +100,22 @@
 			<div  id="projectContainer" class="col-md-10">
 				<div class="panel panel-success" style="height:530px">
 					<div class="panel-heading">
-						<h3 class="panel-title">最新订单</h3>
+						<div class="panel-title">
+							建议规划学校
+							
+						</div>
+						
 					</div>
 					<div class="panel-body">
+						
 						<table style="margin-top:-10px" class="table table-striped table-bordered table-hover">		 		
-					 		<thead id="titlecenter">
+					 		<thead id="sugtitlecenter">
 					 			<tr>
-					 				<th>责任单位</th><th>项目名称</th><th>项目规模</th><th>项目内容</th><th>开工年份</th><th>竣工年份</th><th>总投资（万元）</th>				
+					 				<th>序号</th><th>名称</th><th>管理</th>				
 					 			</tr>
 					 		</thead>
-					 		<tbody id="protable">
-					 			<?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
-						 				<td><?php echo ($vo["unit"]); ?></td>
-										<td><?php echo ($vo["name"]); ?></td>
-										<td><?php echo ($vo["scale"]); ?></td>
-										<td><?php echo ($vo["content"]); ?></td>
-										<td><?php echo ($vo["starttime"]); ?></td>
-										<td><?php echo ($vo["endtime"]); ?></td>
-										<td><?php echo ($vo["totalinvestment"]); ?></td>	
+					 		<tbody id="sugtable">
+					 			<?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>	
 						 			</tr><?php endforeach; endif; ?>
 					 		</tbody>
 

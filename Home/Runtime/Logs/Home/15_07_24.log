@@ -1,0 +1,368 @@
+[ 2015-07-24T00:01:25+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-24T00:06:11+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:07:26+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:08:02+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:09:34+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-07-24T00:09:59+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:10:16+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:12:24+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-24T00:14:46+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:15:05+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-24T00:15:40+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:15:47+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:16:24+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:19:51+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:36:45+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:37:01+08:00 ] 127.0.0.1 /bmap1/index.php/Home/School/searchSchool
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: searchInfo D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SchoolController.class.php 第 46 行.
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.0938s ]
+SQL: SELECT * FROM tp_schools WHERE schoolname LIKE '%%'  [ RunTime:0.0313s ]
+SQL: SELECT location FROM tp_schools WHERE schoolname LIKE '%%'  [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D006C239EEC66795C407CEE04FBAF8F3640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0006BD3786007A5C408C4AEA04348D3640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0033FB3C4679745C408F8EAB915DB53640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D000934D8D479805C407B2FBE688FB33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D787F546AD7A5C408A3A730F09C33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00CF4D9B711A835C4019C5724BAB9D3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D003430F2B226775C402B31CF4A5ACD3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0000016BD5AE7C5C40C2137AFD49B03640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0083A10E2BDC755C4019028063CFBA3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D009BABE63922815C40534145D5AFA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D595CFF23C785C40CDCB61F71D8F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D005C59A2B3CC845C400F60915F3F943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00FBCC599F72845C402A0307B474913640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00ED0DBE3099825C40D11E2FA4C38F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00C16F438CD7835C40647616BD538D3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0022895E46B1835C40DF6FB4E386873640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00F850A2258F875C40001FBC76698F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0027A5A0DB4B885C40F6EE8FF7AA953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0095F1EF332E875C40E1968FA4A4933640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-24T00:37:07+08:00 ] 127.0.0.1 /bmap1/index.php/Home/School/searchSchool
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: searchInfo D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SchoolController.class.php 第 46 行.
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_schools'); [ RunTime:0.0938s ]
+SQL: SELECT * FROM tp_schools WHERE schoolname LIKE '%%'  [ RunTime:0.0156s ]
+SQL: SELECT location FROM tp_schools WHERE schoolname LIKE '%%'  [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D006C239EEC66795C407CEE04FBAF8F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0006BD3786007A5C408C4AEA04348D3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0062669FC728825C40E544BB0A29A33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0033FB3C4679745C408F8EAB915DB53640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D000934D8D479805C407B2FBE688FB33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D006C7A50508A825C408E5BCCCF0DA93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D787F546AD7A5C408A3A730F09C33640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00CF4D9B711A835C4019C5724BAB9D3640') [ RunTime:0.0156s ]
+SQL: select ST_AsText('010100002031BF0D001E6B4606B9795C401ADD41EC4C953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D003430F2B226775C402B31CF4A5ACD3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0000016BD5AE7C5C40C2137AFD49B03640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00FF774485EA795C40FBCC599F72903640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0083A10E2BDC755C4019028063CFBA3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D009BABE63922815C40534145D5AFA83640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00B3D2A41474785C405BE9B5D958913640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D595CFF23C785C40CDCB61F71D8F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D005C59A2B3CC845C400F60915F3F943640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D008869DFDC5F775C40D40CA9A278953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00FBCC599F72845C402A0307B474913640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00ED0DBE3099825C40D11E2FA4C38F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00D4450A65E1795C408BA8893E1FC93640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00C16F438CD7835C40647616BD538D3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0022895E46B1835C40DF6FB4E386873640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00E06932E36D835C4097E4805D4DB63640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D00F850A2258F875C40001FBC76698F3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0027A5A0DB4B885C40F6EE8FF7AA953640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D001BBCAFCA85745C40BC1FB75F3EAD3640') [ RunTime:0.0000s ]
+SQL: select ST_AsText('010100002031BF0D0095F1EF332E875C40E1968FA4A4933640') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-24T00:37:55+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:38:07+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_suggestfile'); [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: filename D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SuggestController.class.php 第 16 行.
+NOTIC: [8] Undefined index: error D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-07-24T00:38:10+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_suggestfile'); [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: filename D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SuggestController.class.php 第 16 行.
+NOTIC: [8] Undefined index: error D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-07-24T00:39:43+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:39:55+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_suggestfile'); [ RunTime:0.0469s ]
+NOTIC: [8] Undefined index: filename D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SuggestController.class.php 第 16 行.
+NOTIC: [8] Undefined index: error D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-07-24T00:39:57+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_suggestfile'); [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: filename D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SuggestController.class.php 第 16 行.
+NOTIC: [8] Undefined index: error D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-07-24T00:40:18+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:40:27+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_suggestfile'); [ RunTime:0.0469s ]
+NOTIC: [8] Undefined index: filename D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SuggestController.class.php 第 17 行.
+NOTIC: [8] Undefined index: error D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-07-24T00:40:28+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: select fields_name as "field",fields_type as "type",fields_not_null as "null",fields_key_name as "key",fields_default as "default",fields_default as "extra" from table_msg('tp_suggestfile'); [ RunTime:0.0469s ]
+NOTIC: [8] Undefined index: filename D:\Bitnami\apache2\htdocs\bmap1\Home\Home\Controller\SuggestController.class.php 第 17 行.
+NOTIC: [8] Undefined index: error D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\Bitnami\apache2\htdocs\bmap1\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-07-24T00:45:52+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:46:08+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-07-24T00:49:50+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:49:59+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:52:16+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T00:52:26+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T00:54:41+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-07-24T00:54:59+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:00:35+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:00:48+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-24T01:03:17+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-24T01:03:18+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:03:24+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T01:03:29+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-07-24T01:03:35+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T01:04:11+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T01:04:22+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T01:05:13+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T01:05:14+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-24T01:11:11+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:11:21+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:19:52+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:20:03+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/dofileup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-24T01:20:04+08:00 ] 127.0.0.1 /bmap1/index.php/Home/Suggest/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+

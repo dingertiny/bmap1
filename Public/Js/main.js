@@ -163,7 +163,7 @@ function onLoad(){
 			map.addControl(top_left_navigation);
 			map.addControl(bottom_right_control);
 
-			$.get('/bmap/index.php/Home/School/schoolInfo',function(data){
+			$.get('/bmap1/index.php/Home/School/schoolInfo',function(data){
 		
 				var obj=eval("("+data+")");				
 				for(var i=0;i<obj.length;i++){
@@ -239,9 +239,14 @@ function onLoad(){
 
 
 		//点击切换到在建项目
-		$("#project").click(function(){
+		/*$("#project").click(function(){
 			window.location='/bmap/index.php/Home/Projects/index';
-		})
+		})*/
+
+		//点击切换到建议规划学校
+		/*$("#suggest").click(function(){
+			alert(123);
+		})*/
 
 		//鼠标移到在建项目每行的高亮变换
 	/*	$("#protable").children("tr").click(function(){
@@ -261,13 +266,16 @@ $(function(){
 	})
 
 	/*表头高宽会随分页跳动，直接固定死*/
-	$("#titlecenter").children("tr").children("th").css({
+	$("#protitlecenter").children("tr").children("th").css({
 		"text-align":"center",
 		"width":"80px",
 		"height":"60px",
 	});
 
 	$("#protable").children("tr").children("td").css("height","80px");
+
+
+
 
 
 })
@@ -283,7 +291,7 @@ function findSearch(){
 	var searchInfo=$(".test")[1].value;
 	if(searchInfo!=""){
 		
-		$.get('/bmap/index.php/Home/School/searchSchool',{'searchInfo':searchInfo},function(data){
+		$.get('/bmap1/index.php/Home/School/searchSchool',{'searchInfo':searchInfo},function(data){
 			if(data==0){
 				return false;
 			}else{
@@ -373,7 +381,7 @@ function findSearch(){
 function noaction(){
 	if(window.event.keyCode==13){
 		//alert(11);
-		window.location.href="/bmap/index.php/Home/Login/loginbefore";
+		window.location.href="/bmap1/index.php/Home/Login/loginbefore";
 	}
 	
 }

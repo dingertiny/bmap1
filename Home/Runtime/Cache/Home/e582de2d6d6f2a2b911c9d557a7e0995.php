@@ -8,18 +8,18 @@
 
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=PGIKkG06BzEr6M7cGjvj0o0o"></script> 
 
-<script src="/bmap/Public/Js/jquery-1.11.1.min.js"></script>
-<script src="/bmap/Public/Js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/bmap/Public/Js/jquery.webui-popover.min.js"></script>
+<script src="/bmap1/Public/Js/jquery-1.11.1.min.js"></script>
+<script src="/bmap1/Public/Js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/bmap1/Public/Js/jquery.webui-popover.min.js"></script>
 
-<link href="/bmap/Public/Css/bootstrap.min.css" rel="stylesheet"/>
-<link rel="stylesheet" type="text/css" href="/bmap/Public/Css/main.css" />
-<link rel="stylesheet" type="text/css" href="/bmap/Public/Css/jquery.webui-popover.min.css" />
-
-
+<link href="/bmap1/Public/Css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="/bmap1/Public/Css/main.css" />
+<link rel="stylesheet" type="text/css" href="/bmap1/Public/Css/jquery.webui-popover.min.css" />
 
 
-<script type="text/javascript" src="/bmap/Public/Js/main.js"></script>
+
+
+<script type="text/javascript" src="/bmap1/Public/Js/main.js"></script>
 
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
@@ -60,10 +60,11 @@
 							<li><a href="#">设置</a></li>
 						</ul>
 					</li>
-					<li><a id="project" href="#">在建项目</a></li>
+					<li><a id="project" href="/bmap1/index.php/Home/Projects/index">在建项目</a></li>
+					<li><a id="suggest" href="/bmap1/index.php/Home/Suggest/index">建议规划学校</a></li>
 				</ul>
 
-				<form action="/bmap/index.php/Home/Login/doLogin" method="post" id="myForm" class="navbar-form navbar-right">
+				<form action="/bmap1/index.php/Home/Login/doLogin" method="post" id="myForm" class="navbar-form navbar-right">
 					<div class="form-group">
 						<input type="text" name="username" class="form-control input-sm" placeholder="用户名..."/>
 						<input type="password" name="password" class="form-control input-sm" placeholder="密码..."/>
@@ -87,7 +88,7 @@
 						<h4 class="modal-title">用户注册</h4>
 					</div>
 					<div class="modal-body">
-					  	<form action="/bmap/index.php/Home/Register/doReg" method="post" id="registerForm">
+					  	<form action="/bmap1/index.php/Home/Register/doReg" method="post" id="registerForm">
 					  		<div id="divusernamezc" class="form-group has-feedback">
 					  			<span class="glyphicon glyphicon-user"></span>
 					  			<label class="control-label">用户名：</label><input type="text" class="form-control" name="usernamezc" id="usernamezc"/>
@@ -114,7 +115,7 @@
 					  			<label class="control-label">验证码：</label><input type="text" class="form-control" name="code" id="code"/>
 					  			<span id="cmessage1" style="display:none" class="help-block"></span>
 					  			<span id="cmessage2" style="display:none" class="glyphicon form-control-feedback"></span>
-					  			<img src="/bmap/index.php/Home/Public/verify" onclick="this.src=this.src+'?'+Math.random()"/>
+					  			<img src="/bmap1/index.php/Home/Public/verify" onclick="this.src=this.src+'?'+Math.random()"/>
 					  		</div>
 					  		
 					  		
@@ -157,7 +158,7 @@
 				<ul class="nav nav-sidebar">
 					<li><a href="#" class="show-pop" data-placement="right">搜索查询<span class="glyphicon glyphicon-chevron-right"></span></a></li>
 					 <div id="popover-content2" class="hide">
-                     	<form class="form-inline" id="searchForm" action="/bmap/index.php/Home/School/searchSchool" method="post">
+                     	<form class="form-inline" id="searchForm" action="/bmap1/index.php/Home/School/searchSchool" method="post">
                      		<div class="form-group">
                      			<input type="text" onkeyup="noaction()"  name="suggestId" id="suggestId" style="width:125px" class="form-control input-sm test" placeholder="请输入关键词"/>
                      			
