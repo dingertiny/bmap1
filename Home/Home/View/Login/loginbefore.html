@@ -1,5 +1,70 @@
-<include file="Public:header"/>
+<!-- <include file="Public:header"/>
+ -->
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学校布局信息管理系统</title>
 
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=PGIKkG06BzEr6M7cGjvj0o0o"></script> 
+
+<script src="__PUBLIC__/Js/jquery-1.11.1.min.js"></script>
+<script src="__PUBLIC__/Js/bootstrap.min.js"></script>
+<load href="__PUBLIC__/Js/jquery.webui-popover.min.js"/>
+
+<link href="__PUBLIC__/Css/bootstrap.min.css" rel="stylesheet"/>
+<load href="__PUBLIC__/Css/main.css"/>
+<load href="__PUBLIC__/Css/jquery.webui-popover.min.css"/>
+
+
+
+
+<load href="__PUBLIC__/Js/main.js"/>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body onload="onLoad()"> 
+<!-- <body> -->
+	<!--下面是顶部导航栏的代码 -->
+	<nav class="navbar navbar-default navbar-inverse  navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">学校布局信息管理系统</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="/bmap1/index.php/Home/Login/Loginafter" id="shouye">首页</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">功能<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="dropdown-header">业务功能</li>
+							<li><a href="#">信息建立</a></li>
+							<li><a href="#">信息查询</a></li>
+							<li><a href="#">信息管理</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">系统功能</li>
+							<li><a href="#">设置</a></li>
+						</ul>
+					</li>
+					<!-- <li><a id="project" href="/bmap1/index.php/Home/Projects/index">在建项目</a></li>
+					<li><a id="suggestfile" href="/bmap1/index.php/Home/Suggestfile/index">建议规划学校</a></li> -->
+				</ul>
 				<form action="__URL__/doLogin" method="post" id="myForm" class="navbar-form navbar-right">
 					<div class="form-group">
 						<input type="text" name="username" class="form-control input-sm" placeholder="用户名..."/>

@@ -46,7 +46,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active">
-						<a href="#" id="shouye">首页</a>
+						<a href="/bmap1/index.php/Home/Login/Loginafter" id="shouye">首页</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">功能<span class="caret"></span></a>
@@ -60,7 +60,8 @@
 							<li><a href="#">设置</a></li>
 						</ul>
 					</li>
-					<li><a id="project" href="#">在建项目</a></li>
+					<li><a id="project" href="/bmap1/index.php/Home/Projects/index">在建项目</a></li>
+					<li><a id="suggestfile" href="/bmap1/index.php/Home/Suggestfile/index">建议规划学校</a></li>
 				</ul>
 			<div class="navbar-text navbar-right" style="display:inline-flex">
 				<div style="margin-right:15px" id="currenttime"></div>
@@ -98,7 +99,7 @@
 					</div>
 					<div class="panel-body">
 						<table style="margin-top:-10px" class="table table-striped table-bordered table-hover">		 		
-					 		<thead id="titlecenter">
+					 		<thead id="protitlecenter">
 					 			<tr>
 					 				<th>责任单位</th><th>项目名称</th><th>项目规模</th><th>项目内容</th><th>开工年份</th><th>竣工年份</th><th>总投资（万元）</th>				
 					 			</tr>
@@ -129,14 +130,17 @@
 
 <script type="text/javascript">
 //显示当前时间
-	function time(){
+	function getNowtime(){
 		var a=new Date();
 		var x=new Array("日","一","二","三","四","五","六");
 		day=x[a.getDay()];
 		document.getElementById('currenttime').innerHTML=a.getFullYear()+"年"+(a.getMonth()+1)+"月"+a.getDate()+"日"+"&nbsp;"+"星期"+day+"&nbsp;"+a.getHours()+":"+a.getMinutes()+":"+a.getSeconds();
 	}
-	setInterval('time()',1000);
-	time();
+	setInterval('getNowtime()',1000);
+	getNowtime();
+
+
+
 </script>
 </body>
 </html>

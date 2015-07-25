@@ -1,4 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit();?> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!--  
+ -->
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -46,7 +48,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active">
-						<a href="#" id="shouye">首页</a>
+						<a href="/bmap1/index.php/Home/Login/Loginafter" id="shouye">首页</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">功能<span class="caret"></span></a>
@@ -60,10 +62,9 @@
 							<li><a href="#">设置</a></li>
 						</ul>
 					</li>
-					<li><a id="project" href="/bmap1/index.php/Home/Projects/index">在建项目</a></li>
-					<li><a id="suggest" href="/bmap1/index.php/Home/Suggest/index">建议规划学校</a></li>
+					<!-- <li><a id="project" href="/bmap1/index.php/Home/Projects/index">在建项目</a></li>
+					<li><a id="suggestfile" href="/bmap1/index.php/Home/Suggestfile/index">建议规划学校</a></li> -->
 				</ul>
-
 				<form action="/bmap1/index.php/Home/Login/doLogin" method="post" id="myForm" class="navbar-form navbar-right">
 					<div class="form-group">
 						<input type="text" name="username" class="form-control input-sm" placeholder="用户名..."/>

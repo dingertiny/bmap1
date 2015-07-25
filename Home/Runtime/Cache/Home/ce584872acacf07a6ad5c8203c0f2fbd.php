@@ -21,6 +21,8 @@
 
 <script type="text/javascript" src="/bmap1/Public/Js/main.js"></script>
 
+
+
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
@@ -46,7 +48,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active">
-						<a href="#" id="shouye">首页</a>
+						<a href="/bmap1/index.php/Home/Login/Loginafter" id="shouye">首页</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">功能<span class="caret"></span></a>
@@ -60,7 +62,8 @@
 							<li><a href="#">设置</a></li>
 						</ul>
 					</li>
-					<li><a id="project" href="#">在建项目</a></li>
+					<li><a id="project" href="/bmap1/index.php/Home/Projects/index">在建项目</a></li>
+					<li><a id="suggestfile" href="/bmap1/index.php/Home/Suggestfile/index">建议规划学校</a></li>
 				</ul>
 			<div class="navbar-text navbar-right" style="display:inline-flex">
 				<div style="margin-right:15px" id="currenttime"></div>
@@ -94,16 +97,16 @@
 				</ul>
 			</div>
 			<div  id="projectContainer" class="col-md-10">
-				<div class="panel panel-success" style="height:530px">
+				<div class="panel panel-info" style="height:530px">
 					<div class="panel-heading">
 						<div class="panel-title">
 							建议规划学校							
 						</div>
 						
 					</div>
-					<form style="display: inline-flex;position: relative;float: right;" method="post" action="/bmap1/index.php/Home/Suggest/dofileup" enctype="multipart/form-data">
+					<form style="display: inline-flex;position: relative;float: right;" method="post" action="/bmap1/index.php/Home/Suggestfile/dofileup" enctype="multipart/form-data">
 						<input type="file" name="filename"/>
-						<input type="submit" value="确定上传" class="btn btn-success btn-xs" />
+						<input type="submit" value="确定上传" style="right: 15px;position: absolute;" class="btn btn-success btn-xs" />
 					</form>	
 					<div class="panel-body">
 
@@ -115,8 +118,12 @@
 					 			</tr>
 					 		</thead>
 					 		<tbody id="sugtable">
-					 			<?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>	
-						 			</tr><?php endforeach; endif; ?>
+					 			<?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+						 				<td><?php echo ($vo["id"]); ?></td>
+										<td><?php echo ($vo["filename"]); ?></td>
+										<td><?php echo (date('Y-m-d H:i',$vo["time"])); ?></td>
+										<td><a href="">下载</a>&nbsp<a href="/bmap1/index.php/Home/Suggestfile/del/id/<?php echo ($vo["id"]); ?>">删除</a></td>
+									</tr><?php endforeach; endif; ?>
 					 		</tbody>
 
 					 	</table>						
@@ -127,9 +134,10 @@
 				<div class="pageDived"><?php echo ($page); ?></div>			
 								
 						 					
-			</div><!--#projectContainer-->
+			</div>
 		</div>
 	</div>
+
 
 <script type="text/javascript">
 //显示当前时间
@@ -143,4 +151,5 @@
 	time();
 </script>
 </body>
+
 </html>

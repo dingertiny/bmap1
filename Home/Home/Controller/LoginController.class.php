@@ -8,7 +8,12 @@ class LoginController extends Controller {
     }
 
     public function loginafter(){
-        $this->display();
+        if(isset($_SESSION['username'])&&$_SESSION['username']!=''){
+            $this->display();
+        }else{
+             $this->redirect("Login/loginbefore");
+        }
+        
     }
 
     //登录

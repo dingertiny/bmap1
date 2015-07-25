@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class ProjectsController extends Controller {
+class ProjectsController extends CommonController {
     
   public function index(){
       $m=M('Projects');

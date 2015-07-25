@@ -6,7 +6,6 @@ function G(id) {
 
 	
 
-
 /*
 *加载页面
 */
@@ -256,7 +255,12 @@ function onLoad(){
 
 	})//$(function(){
 
+
+
 }
+
+
+
 
 $(function(){
 	$("#protable").children("tr").hover(function(){
@@ -276,9 +280,13 @@ $(function(){
 
 
 
+//建议规划学校的删除
+
+
 
 
 })
+
 
 
 /**
